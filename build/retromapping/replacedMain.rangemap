@@ -1,6 +1,6 @@
 Symbol range map extraction starting
 Processing 1 files
-startProcessing "com\example\examplemod\ExampleMod.java" md5: b71fb29032dfc14dcfa5b13129484f4e
+startProcessing "com\example\examplemod\ExampleMod.java" md5: 12b4fceefb8c12a334a0fc1f57e479eb
 @|com\example\examplemod\ExampleMod.java|8|30|com.example.examplemod|package|com.example.examplemod|(file)
 Class Start: com.example.examplemod.ExampleMod
    @|com\example\examplemod\ExampleMod.java|364|367|Mod|class|net.minecraftforge.fml.common.Mod
@@ -36,14 +36,48 @@ Class Start: com.example.examplemod.ExampleMod
       @|com\example\examplemod\ExampleMod.java|969|978|ItemStack|class|net.minecraft.item.ItemStack
       @|com\example\examplemod\ExampleMod.java|979|985|Blocks|class|net.minecraft.init.Blocks
       @|com\example\examplemod\ExampleMod.java|986|994|FARMLAND|field|net.minecraft.init.Blocks|FARMLAND
-      @|com\example\examplemod\ExampleMod.java|1004|1010|Object|class|java.lang.Object
-      @|com\example\examplemod\ExampleMod.java|1041|1047|Blocks|class|net.minecraft.init.Blocks
-      @|com\example\examplemod\ExampleMod.java|1048|1052|DIRT|field|net.minecraft.init.Blocks|DIRT
-      @|com\example\examplemod\ExampleMod.java|1059|1064|Items|class|net.minecraft.init.Items
-      @|com\example\examplemod\ExampleMod.java|1065|1075|WOODEN_HOE|field|net.minecraft.init.Items|WOODEN_HOE
-      @|com\example\examplemod\ExampleMod.java|1096|1102|System|class|java.lang.System
-      @|com\example\examplemod\ExampleMod.java|1103|1106|out|field|java.lang.System|out
-      @|com\example\examplemod\ExampleMod.java|1107|1114|println|method|java.io.PrintStream|println|(Ljava/lang/String;)V
+      @|com\example\examplemod\ExampleMod.java|1006|1012|Object|class|java.lang.Object
+      @|com\example\examplemod\ExampleMod.java|1043|1049|Blocks|class|net.minecraft.init.Blocks
+      @|com\example\examplemod\ExampleMod.java|1050|1054|DIRT|field|net.minecraft.init.Blocks|DIRT
+      @|com\example\examplemod\ExampleMod.java|1061|1066|Items|class|net.minecraft.init.Items
+      @|com\example\examplemod\ExampleMod.java|1067|1077|WOODEN_HOE|field|net.minecraft.init.Items|WOODEN_HOE
+      @|com\example\examplemod\ExampleMod.java|1095|1107|GameRegistry|class|net.minecraftforge.fml.common.registry.GameRegistry
+      @|com\example\examplemod\ExampleMod.java|1108|1117|addRecipe|method|net.minecraftforge.fml.common.registry.GameRegistry|addRecipe|(Lnet/minecraft/item/ItemStack;[Ljava/lang/Object;)V
+      @|com\example\examplemod\ExampleMod.java|1122|1131|ItemStack|class|net.minecraft.item.ItemStack
+      @|com\example\examplemod\ExampleMod.java|1132|1137|Items|class|net.minecraft.init.Items
+      @|com\example\examplemod\ExampleMod.java|1138|1147|STONE_AXE|field|net.minecraft.init.Items|STONE_AXE
+      @|com\example\examplemod\ExampleMod.java|1157|1163|Object|class|java.lang.Object
+      @|com\example\examplemod\ExampleMod.java|1194|1199|Items|class|net.minecraft.init.Items
+      @|com\example\examplemod\ExampleMod.java|1200|1210|WOODEN_AXE|field|net.minecraft.init.Items|WOODEN_AXE
+      @|com\example\examplemod\ExampleMod.java|1225|1237|GameRegistry|class|net.minecraftforge.fml.common.registry.GameRegistry
+      @|com\example\examplemod\ExampleMod.java|1238|1247|addRecipe|method|net.minecraftforge.fml.common.registry.GameRegistry|addRecipe|(Lnet/minecraft/item/ItemStack;[Ljava/lang/Object;)V
+      @|com\example\examplemod\ExampleMod.java|1252|1261|ItemStack|class|net.minecraft.item.ItemStack
+      @|com\example\examplemod\ExampleMod.java|1262|1268|Blocks|class|net.minecraft.init.Blocks
+      @|com\example\examplemod\ExampleMod.java|1269|1275|SPONGE|field|net.minecraft.init.Blocks|SPONGE
+      @|com\example\examplemod\ExampleMod.java|1285|1291|Object|class|java.lang.Object
+      @|com\example\examplemod\ExampleMod.java|1322|1328|Blocks|class|net.minecraft.init.Blocks
+      @|com\example\examplemod\ExampleMod.java|1329|1333|WOOL|field|net.minecraft.init.Blocks|WOOL
+      @|com\example\examplemod\ExampleMod.java|1340|1345|Items|class|net.minecraft.init.Items
+      @|com\example\examplemod\ExampleMod.java|1346|1358|WATER_BUCKET|field|net.minecraft.init.Items|WATER_BUCKET
+      @|com\example\examplemod\ExampleMod.java|1373|1385|GameRegistry|class|net.minecraftforge.fml.common.registry.GameRegistry
+      @|com\example\examplemod\ExampleMod.java|1386|1395|addRecipe|method|net.minecraftforge.fml.common.registry.GameRegistry|addRecipe|(Lnet/minecraft/item/ItemStack;[Ljava/lang/Object;)V
+      @|com\example\examplemod\ExampleMod.java|1400|1409|ItemStack|class|net.minecraft.item.ItemStack
+      @|com\example\examplemod\ExampleMod.java|1410|1415|Items|class|net.minecraft.init.Items
+      @|com\example\examplemod\ExampleMod.java|1416|1426|GOLDEN_AXE|field|net.minecraft.init.Items|GOLDEN_AXE
+      @|com\example\examplemod\ExampleMod.java|1436|1442|Object|class|java.lang.Object
+      @|com\example\examplemod\ExampleMod.java|1473|1478|Items|class|net.minecraft.init.Items
+      @|com\example\examplemod\ExampleMod.java|1479|1488|STONE_AXE|field|net.minecraft.init.Items|STONE_AXE
+      @|com\example\examplemod\ExampleMod.java|1503|1515|GameRegistry|class|net.minecraftforge.fml.common.registry.GameRegistry
+      @|com\example\examplemod\ExampleMod.java|1516|1525|addRecipe|method|net.minecraftforge.fml.common.registry.GameRegistry|addRecipe|(Lnet/minecraft/item/ItemStack;[Ljava/lang/Object;)V
+      @|com\example\examplemod\ExampleMod.java|1530|1539|ItemStack|class|net.minecraft.item.ItemStack
+      @|com\example\examplemod\ExampleMod.java|1540|1545|Items|class|net.minecraft.init.Items
+      @|com\example\examplemod\ExampleMod.java|1546|1557|DIAMOND_AXE|field|net.minecraft.init.Items|DIAMOND_AXE
+      @|com\example\examplemod\ExampleMod.java|1567|1573|Object|class|java.lang.Object
+      @|com\example\examplemod\ExampleMod.java|1604|1609|Items|class|net.minecraft.init.Items
+      @|com\example\examplemod\ExampleMod.java|1610|1620|GOLDEN_AXE|field|net.minecraft.init.Items|GOLDEN_AXE
+      @|com\example\examplemod\ExampleMod.java|1633|1639|System|class|java.lang.System
+      @|com\example\examplemod\ExampleMod.java|1640|1643|out|field|java.lang.System|out
+      @|com\example\examplemod\ExampleMod.java|1644|1651|println|method|java.io.PrintStream|println|(Ljava/lang/String;)V
    Method End: init(Lnet/minecraftforge/fml/common/event/FMLInitializationEvent;)V
 Class End  : com.example.examplemod.ExampleMod
 endProcessing "com\example\examplemod\ExampleMod.java"
