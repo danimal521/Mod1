@@ -29,7 +29,9 @@ public class ExampleMod //extends BaseMod
 	    
 	    GameRegistry.addRecipe(new ItemStack(Blocks.SPONGE, 8), new Object[] { "OOO", "OWO", "OOO", 'O', Blocks.WOOL, 'W', Items.WATER_BUCKET});
 	    
-	    GameRegistry.addRecipe(new ItemStack(Items.GOLDEN_AXE, 1), new Object[] { "AAA", "A A", "AAA", 'A', Items.STONE_AXE});
+	    GameRegistry.addRecipe(new ItemStack(Items.IRON_AXE, 1), new Object[] { "AAA", "A A", "AAA", 'A', Items.STONE_AXE});
+	    
+	    GameRegistry.addRecipe(new ItemStack(Items.GOLDEN_AXE, 1), new Object[] { "AAA", "A A", "AAA", 'A', Items.IRON_AXE});
 	    
 	    GameRegistry.addRecipe(new ItemStack(Items.DIAMOND_AXE, 1), new Object[] { "AAA", "A A", "AAA", 'A', Items.GOLDEN_AXE});
 
