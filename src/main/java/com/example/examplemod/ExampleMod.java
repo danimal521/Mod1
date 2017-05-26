@@ -34,7 +34,19 @@ public class ExampleMod //extends BaseMod
 	    GameRegistry.addRecipe(new ItemStack(Items.GOLDEN_AXE, 1), new Object[] { "AAA", "A A", "AAA", 'A', Items.IRON_AXE});
 	    
 	    GameRegistry.addRecipe(new ItemStack(Items.DIAMOND_AXE, 1), new Object[] { "AAA", "A A", "AAA", 'A', Items.GOLDEN_AXE});
+	    
+	    GameRegistry.addRecipe(new ItemStack(Blocks.MOSSY_COBBLESTONE, 1), new Object[] { " V ", "VCV", " V ", 'C', Blocks.COBBLESTONE, 'V', Blocks.VINE});
 
+	    float xp = 500;
+	    GameRegistry.addSmelting(Blocks.BONE_BLOCK, new ItemStack(Items.DIAMOND, 9),  xp);
+	    
+	    
+	    Junk j = new Junk("junk");
+	    GameRegistry.register(j);
+	    
+	    
+	    
+	    
         System.out.println("Loaded!");
         
     }

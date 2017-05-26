@@ -1,0 +1,107 @@
+[20:18:45] [main/INFO]: Extra: []
+[20:18:45] [main/INFO]: Running with arguments: [--userProperties, {}, --assetsDir, C:/Users/Ryder/.gradle/caches/minecraft/assets, --assetIndex, 1.11, --accessToken{REDACTED}, --version, 1.11.2, --tweakClass, net.minecraftforge.fml.common.launcher.FMLTweaker, --tweakClass, net.minecraftforge.gradle.tweakers.CoremodTweaker]
+[20:18:45] [main/INFO]: Loading tweak class name net.minecraftforge.fml.common.launcher.FMLTweaker
+[20:18:45] [main/INFO]: Using primary tweak class name net.minecraftforge.fml.common.launcher.FMLTweaker
+[20:18:45] [main/INFO]: Loading tweak class name net.minecraftforge.gradle.tweakers.CoremodTweaker
+[20:18:45] [main/INFO]: Calling tweak class net.minecraftforge.fml.common.launcher.FMLTweaker
+[20:18:45] [main/INFO]: Forge Mod Loader version 13.20.0.2228 for Minecraft 1.11.2 loading
+[20:18:45] [main/INFO]: Java is Java HotSpot(TM) 64-Bit Server VM, version 1.8.0_05, running on Windows 8.1:amd64:6.3, installed at C:\Program Files\Java\jre8
+[20:18:45] [main/INFO]: Managed to load a deobfuscated Minecraft name- we are in a deobfuscated environment. Skipping runtime deobfuscation
+[20:18:45] [main/INFO]: Calling tweak class net.minecraftforge.gradle.tweakers.CoremodTweaker
+[20:18:45] [main/INFO]: Injecting location in coremod net.minecraftforge.fml.relauncher.FMLCorePlugin
+[20:18:45] [main/INFO]: Injecting location in coremod net.minecraftforge.classloading.FMLForgePlugin
+[20:18:45] [main/INFO]: Loading tweak class name net.minecraftforge.fml.common.launcher.FMLInjectionAndSortingTweaker
+[20:18:45] [main/INFO]: Loading tweak class name net.minecraftforge.fml.common.launcher.FMLDeobfTweaker
+[20:18:45] [main/INFO]: Loading tweak class name net.minecraftforge.gradle.tweakers.AccessTransformerTweaker
+[20:18:45] [main/INFO]: Calling tweak class net.minecraftforge.fml.common.launcher.FMLInjectionAndSortingTweaker
+[20:18:45] [main/INFO]: Calling tweak class net.minecraftforge.fml.common.launcher.FMLInjectionAndSortingTweaker
+[20:18:45] [main/INFO]: Calling tweak class net.minecraftforge.fml.relauncher.CoreModManager$FMLPluginWrapper
+[20:18:46] [main/ERROR]: The binary patch set is missing. Either you are in a development environment, or things are not going to work!
+[20:18:48] [main/ERROR]: FML appears to be missing any signature data. This is not a good thing
+[20:18:48] [main/INFO]: Calling tweak class net.minecraftforge.fml.relauncher.CoreModManager$FMLPluginWrapper
+[20:18:48] [main/INFO]: Calling tweak class net.minecraftforge.fml.common.launcher.FMLDeobfTweaker
+[20:18:49] [main/INFO]: Calling tweak class net.minecraftforge.gradle.tweakers.AccessTransformerTweaker
+[20:18:49] [main/INFO]: Loading tweak class name net.minecraftforge.fml.common.launcher.TerminalTweaker
+[20:18:49] [main/INFO]: Calling tweak class net.minecraftforge.fml.common.launcher.TerminalTweaker
+[20:18:49] [main/INFO]: Launching wrapped minecraft {net.minecraft.client.main.Main}
+[20:18:50] [Client thread/INFO]: Setting user: Player765
+[20:18:57] [Client thread/WARN]: Skipping bad option: lastServer:
+[20:18:57] [Client thread/INFO]: LWJGL Version: 2.9.4
+[20:18:58] [Client thread/INFO]: [STDOUT]: ---- Minecraft Crash Report ----
+// Ouch. That hurt :(
+
+Time: 5/25/17 8:18 PM
+Description: Loading screen debug info
+
+This is just a prompt for computer specs to be printed. THIS IS NOT A ERROR
+
+
+A detailed walkthrough of the error, its code path and all known details is as follows:
+---------------------------------------------------------------------------------------
+
+-- System Details --
+Details:
+	Minecraft Version: 1.11.2
+	Operating System: Windows 8.1 (amd64) version 6.3
+	Java Version: 1.8.0_05, Oracle Corporation
+	Java VM Version: Java HotSpot(TM) 64-Bit Server VM (mixed mode), Oracle Corporation
+	Memory: 63326912 bytes (60 MB) / 348651520 bytes (332 MB) up to 1417150464 bytes (1351 MB)
+	JVM Flags: 0 total; 
+	IntCache: cache: 0, tcache: 0, allocated: 0, tallocated: 0
+	FML: 
+	Loaded coremods (and transformers): 
+	GL info: ' Vendor: 'Intel' Version: '4.3.0 - Build 10.18.15.4278' Renderer: 'Intel(R) HD Graphics 5500'
+[20:18:58] [Client thread/INFO]: MinecraftForge v13.20.0.2228 Initialized
+[20:18:59] [Client thread/INFO]: Replaced 232 ore recipes
+[20:19:00] [Client thread/INFO]: Found 0 mods from the command line. Injecting into mod discoverer
+[20:19:00] [Client thread/INFO]: Searching C:\Rydo_MOD\run\mods for mods
+[20:19:03] [Client thread/INFO]: Forge Mod Loader has identified 5 mods to load
+[20:19:04] [Client thread/INFO]: Attempting connection with missing mods [minecraft, mcp, FML, forge, examplemod] at CLIENT
+[20:19:04] [Client thread/INFO]: Attempting connection with missing mods [minecraft, mcp, FML, forge, examplemod] at SERVER
+[20:19:06] [Client thread/INFO]: Reloading ResourceManager: Default, FMLFileResourcePack:Forge Mod Loader, FMLFileResourcePack:Minecraft Forge, FMLFileResourcePack:Example Mod
+[20:19:06] [Client thread/INFO]: Processing ObjectHolder annotations
+[20:19:06] [Client thread/INFO]: Found 444 ObjectHolder annotations
+[20:19:06] [Client thread/INFO]: Identifying ItemStackHolder annotations
+[20:19:06] [Client thread/INFO]: Found 0 ItemStackHolder annotations
+[20:19:06] [Client thread/INFO]: Applying holder lookups
+[20:19:06] [Client thread/INFO]: Holder lookups applied
+[20:19:06] [Client thread/INFO]: Applying holder lookups
+[20:19:06] [Client thread/INFO]: Holder lookups applied
+[20:19:06] [Client thread/INFO]: Applying holder lookups
+[20:19:06] [Client thread/INFO]: Holder lookups applied
+[20:19:06] [Client thread/INFO]: Configured a dormant chunk cache size of 0
+[20:19:06] [Forge Version Check/INFO]: [forge] Starting version check at http://files.minecraftforge.net/maven/net/minecraftforge/forge/promotions_slim.json
+[20:19:06] [Client thread/INFO]: Applying holder lookups
+[20:19:06] [Client thread/INFO]: Holder lookups applied
+[20:19:06] [Client thread/INFO]: Injecting itemstacks
+[20:19:06] [Client thread/INFO]: Itemstack injection complete
+[20:19:07] [Forge Version Check/INFO]: [forge] Found status: UP_TO_DATE Target: null
+[20:19:11] [Sound Library Loader/INFO]: Starting up SoundSystem...
+[20:19:11] [Thread-8/INFO]: Initializing LWJGL OpenAL
+[20:19:11] [Thread-8/INFO]: (The LWJGL binding of OpenAL.  For more information, see http://www.lwjgl.org)
+[20:19:12] [Thread-8/INFO]: OpenAL initialized.
+[20:19:12] [Sound Library Loader/INFO]: Sound engine started
+[20:19:18] [Client thread/INFO]: Max texture size: 8192
+[20:19:18] [Client thread/INFO]: Created: 16x16 textures-atlas
+[20:19:19] [Client thread/INFO]: [STDOUT]: DIRT BLOCK >> tile.dirt
+[20:19:19] [Client thread/INFO]: [STDOUT]: Dude!
+[20:19:19] [Client thread/INFO]: [STDOUT]: Junk!
+[20:19:19] [Client thread/INFO]: [STDOUT]: Loaded!
+[20:19:19] [Client thread/INFO]: Injecting itemstacks
+[20:19:19] [Client thread/INFO]: Itemstack injection complete
+[20:19:19] [Client thread/INFO]: Forge Mod Loader has successfully loaded 5 mods
+[20:19:19] [Client thread/INFO]: Reloading ResourceManager: Default, FMLFileResourcePack:Forge Mod Loader, FMLFileResourcePack:Minecraft Forge, FMLFileResourcePack:Example Mod
+[20:19:23] [Client thread/INFO]: SoundSystem shutting down...
+[20:19:23] [Client thread/WARN]: Author: Paul Lamb, www.paulscode.com
+[20:19:23] [Sound Library Loader/INFO]: Starting up SoundSystem...
+[20:19:23] [Thread-10/INFO]: Initializing LWJGL OpenAL
+[20:19:23] [Thread-10/INFO]: (The LWJGL binding of OpenAL.  For more information, see http://www.lwjgl.org)
+[20:19:23] [Thread-10/INFO]: OpenAL initialized.
+[20:19:23] [Sound Library Loader/INFO]: Sound engine started
+[20:19:28] [Client thread/INFO]: Max texture size: 8192
+[20:19:28] [Client thread/INFO]: Created: 512x512 textures-atlas
+[20:19:32] [Client thread/WARN]: Skipping bad option: lastServer:
+[20:19:34] [Realms Notification Availability checker #1/INFO]: Could not authorize you against Realms server: Invalid session id
+[20:40:16] [Client thread/INFO]: Stopping!
+[20:40:16] [Client thread/INFO]: SoundSystem shutting down...
+[20:40:16] [Client thread/WARN]: Author: Paul Lamb, www.paulscode.com

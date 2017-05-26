@@ -1,6 +1,6 @@
 Symbol range map extraction starting
 Processing 1 files
-startProcessing "com\example\examplemod\ExampleMod.java" md5: 07efc198a809671918148c4631a6cbc2
+startProcessing "com\example\examplemod\ExampleMod.java" md5: ebc414e3113219536ad42a0011ef2786
 @|com\example\examplemod\ExampleMod.java|8|30|com.example.examplemod|package|com.example.examplemod|(file)
 Class Start: com.example.examplemod.ExampleMod
    @|com\example\examplemod\ExampleMod.java|364|367|Mod|class|net.minecraftforge.fml.common.Mod
@@ -83,9 +83,26 @@ Class Start: com.example.examplemod.ExampleMod
       @|com\example\examplemod\ExampleMod.java|1694|1700|Object|class|java.lang.Object
       @|com\example\examplemod\ExampleMod.java|1731|1736|Items|class|net.minecraft.init.Items
       @|com\example\examplemod\ExampleMod.java|1737|1747|GOLDEN_AXE|field|net.minecraft.init.Items|GOLDEN_AXE
-      @|com\example\examplemod\ExampleMod.java|1760|1766|System|class|java.lang.System
-      @|com\example\examplemod\ExampleMod.java|1767|1770|out|field|java.lang.System|out
-      @|com\example\examplemod\ExampleMod.java|1771|1778|println|method|java.io.PrintStream|println|(Ljava/lang/String;)V
+      @|com\example\examplemod\ExampleMod.java|1762|1774|GameRegistry|class|net.minecraftforge.fml.common.registry.GameRegistry
+      @|com\example\examplemod\ExampleMod.java|1775|1784|addRecipe|method|net.minecraftforge.fml.common.registry.GameRegistry|addRecipe|(Lnet/minecraft/item/ItemStack;[Ljava/lang/Object;)V
+      @|com\example\examplemod\ExampleMod.java|1789|1798|ItemStack|class|net.minecraft.item.ItemStack
+      @|com\example\examplemod\ExampleMod.java|1799|1805|Blocks|class|net.minecraft.init.Blocks
+      @|com\example\examplemod\ExampleMod.java|1806|1823|MOSSY_COBBLESTONE|field|net.minecraft.init.Blocks|MOSSY_COBBLESTONE
+      @|com\example\examplemod\ExampleMod.java|1833|1839|Object|class|java.lang.Object
+      @|com\example\examplemod\ExampleMod.java|1870|1876|Blocks|class|net.minecraft.init.Blocks
+      @|com\example\examplemod\ExampleMod.java|1877|1888|COBBLESTONE|field|net.minecraft.init.Blocks|COBBLESTONE
+      @|com\example\examplemod\ExampleMod.java|1895|1901|Blocks|class|net.minecraft.init.Blocks
+      @|com\example\examplemod\ExampleMod.java|1902|1906|VINE|field|net.minecraft.init.Blocks|VINE
+      @|com\example\examplemod\ExampleMod.java|1937|1949|GameRegistry|class|net.minecraftforge.fml.common.registry.GameRegistry
+      @|com\example\examplemod\ExampleMod.java|1950|1961|addSmelting|method|net.minecraftforge.fml.common.registry.GameRegistry|addSmelting|(Lnet/minecraft/block/Block;Lnet/minecraft/item/ItemStack;F)V
+      @|com\example\examplemod\ExampleMod.java|1962|1968|Blocks|class|net.minecraft.init.Blocks
+      @|com\example\examplemod\ExampleMod.java|1969|1979|BONE_BLOCK|field|net.minecraft.init.Blocks|BONE_BLOCK
+      @|com\example\examplemod\ExampleMod.java|1985|1994|ItemStack|class|net.minecraft.item.ItemStack
+      @|com\example\examplemod\ExampleMod.java|1995|2000|Items|class|net.minecraft.init.Items
+      @|com\example\examplemod\ExampleMod.java|2001|2008|DIAMOND|field|net.minecraft.init.Items|DIAMOND
+      @|com\example\examplemod\ExampleMod.java|2034|2040|System|class|java.lang.System
+      @|com\example\examplemod\ExampleMod.java|2041|2044|out|field|java.lang.System|out
+      @|com\example\examplemod\ExampleMod.java|2045|2052|println|method|java.io.PrintStream|println|(Ljava/lang/String;)V
    Method End: init(Lnet/minecraftforge/fml/common/event/FMLInitializationEvent;)V
 Class End  : com.example.examplemod.ExampleMod
 endProcessing "com\example\examplemod\ExampleMod.java"
